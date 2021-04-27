@@ -21,7 +21,7 @@ RUN apt-get update && \
   export DOSCONF=$(dosbox -printconf) && \
   cp $DOSCONF ~/.dosbox/dosbox.conf && \
   sed -i 's/usescancodes=true/usescancodes=false/' ~/.dosbox/dosbox.conf && \
-  openssl req -x509 -nodes -newkey rsa:2048 -keyout ~/novnc.pem -out ~/novnc.pem -days 3650 -subj "/C=US/ST=NY/L=NY/O=NY/OU=NY/CN=NY emailAddress=email@examp$
+  openssl req -x509 -nodes -newkey rsa:2048 -keyout ~/novnc.pem -out ~/novnc.pem -days 3650 -subj "/C=US/ST=NY/L=NY/O=NY/OU=NY/CN=NY emailAddress=julibcn@gmail.com"
 
 EXPOSE 80
 
