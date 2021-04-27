@@ -48,7 +48,7 @@ Reference:
 
 
 Like:
-> docker image tag bubbob:latest julibcn/bubbob:latest
+> docker image tag mybubble:latest julibcn/bubbob:latest
 
 > docker login
 
