@@ -33,7 +33,7 @@ Bubble Bobble Arcade Game on Docker with DosBox (2021)
 
 > curl -L http://localhost/vnc.html
 
-* Passwd: C0nn3ct! *
+* Passwd: C0nn3ct!
 
 > docker ps
 
